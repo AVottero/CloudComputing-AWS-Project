@@ -1,0 +1,27 @@
+HAND-IN SHEET - Final Project
+Course: 420-1NF-01
+Author: Alyssa Vottero
+Instructor: Lounis Zaidi
+=========================================================
+1. read-only IAM user
+   Sign-in     https://313117917995.signin.aws.amazon.com/console
+   Username    finalProjectUser
+   Password    c6^JGl@EtQi^Qc=rTAss   (change required on first sign-in)
+   Instance    i-028490fa7b5c22290
+
+2. S3 BUCKET URL (PART 1)
+   http://s3-bucket-studentgrades.s3-website.us-east-2.amazonaws.com
+
+3. EC2 SITE URL (PART 2)
+   http://ec2-18-221-68-152.us-east-2.compute.amazonaws.com/index.php
+
+4. RDS SCHOOL INSTRUCTOR DATABASE
+   Endpoint    finalprojectrds.c5cc40ikmb65.us-east-2.rds.amazonaws.com
+   Port        3306
+   Database    school       (table: instructors)
+   Username    DBUser
+   Password    qVJITwITUS7aejUFk3iu77b5
+
+---------------------------------------------------------
+
+NOTE: plaintext passwords. Delete this file after grading.

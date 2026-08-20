@@ -1,0 +1,34 @@
+<!-- 
+filename: index.html
+author: Alyssa Vottero
+course: 420-INF-ID - Cloud Computing
+instructor: Lounis Zaidi
+date: 05-08-2026 
+-->
+
+<html>
+    <head> 
+        <title>Saving student Grades</title>
+    </head>
+
+    <body>
+        <h1>Calculate Final Grade</h1>
+
+        <form method="post" action="https://b1y9n7gi2g.execute-api.us-east-2.amazonaws.com/default/studentGradesLambda">
+
+            <label for="studentID">Student Code:</label>
+            <input type="text" id="studentCode" name="studentCode"><br>
+
+
+            <label for="midtermExam">Midterm Exam:</label>
+            <input type="number" id="midtermExam" name="midtermExam" ><br>
+
+            <label for="finalExam">Final Exam:</label>
+            <input type="number" id="finalExam" name="finalExam"><br>
+
+
+            <input type="submit" value="Submit">
+
+        </form>
+    </body>
+</html>
